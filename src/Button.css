@@ -1,0 +1,33 @@
+.ac {
+    grid-area: ac;
+    background-color: maroon;
+}
+
+.equals {
+    grid-area: equals;
+    background-color: darkslategray;
+}
+
+.zero {
+    grid-area: zero;
+    background-color: gray;
+}
+
+button {
+    background-color: dimgray;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: solid dimgray 1px;
+}
+
+button:hover {
+    background-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+button:active {
+    background-color: rgb(80, 80, 80);
+}

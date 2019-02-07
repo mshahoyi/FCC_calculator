@@ -1,5 +1,23 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: '.' 'buttons';
+  justify-content: center;
+  grid-template-rows: 5em 20em;
+  grid-template-columns: 20em;
+}
+
+#button-container {
+  grid-area: buttons;
+  display: grid;
+  grid-template-areas: 
+  'ac ac . .'
+  '. . . .'
+  '. . . .'
+  '. . . equals'
+  'zero zero . equals';
+  grid-gap: 1px;
 }
 
 .App-logo {

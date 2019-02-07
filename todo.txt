@@ -1,0 +1,3 @@
+- all button have a function
+- all buttons have a the same response on hover
+- all buttons have connection to the display
